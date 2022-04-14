@@ -23,7 +23,7 @@ namespace WhatsAppWebWpf
 
         public override void OnApplyTemplate()
         {
-            var oDep = GetTemplateChild("btnHelp");
+            var oDep = GetTemplateChild("btnQuit");
             if (oDep != null)
             {
                 ((Button)oDep).Click += this.btnHelp_Click;

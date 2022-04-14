@@ -34,7 +34,7 @@
                 <ContentPresenter Content="{TemplateBinding Content}" />
               </Border>
               <!-- fouth button! -->
-              <Button Foreground="White" Name="btnHelp" Focusable="False" Height="25" HorizontalAlignment="Right" Margin="0,1,150,0" VerticalAlignment="Top" Width="50" WindowChrome.IsHitTestVisibleInChrome="True" Background="Transparent" BorderThickness="0">Q</Button>
+              <Button Foreground="White" x:Name="btnQuit" Focusable="False" Height="25" HorizontalAlignment="Right" Margin="0,1,150,0" VerticalAlignment="Top" Width="50" WindowChrome.IsHitTestVisibleInChrome="True" Background="Transparent" BorderThickness="0">Q</Button>
             </Grid>
           </ControlTemplate>
         </Setter.Value>
